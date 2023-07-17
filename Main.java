@@ -15,7 +15,7 @@ public class Main
 			System.out.print("Do you want to exit(Y/N)? ");
         	char ch=sc.nextLine().toUpperCase().charAt(0);
         	if(ch=='Y') {
-			System.out.println();System.exit(0);
+			System.exit(0);
 			     
 		}}
 		return null;
