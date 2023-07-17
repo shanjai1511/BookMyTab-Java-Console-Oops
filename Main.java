@@ -14,10 +14,9 @@ public class Main
 			System.out.println("Password and userId incorrect");
 			System.out.print("Do you want to exit(Y/N)? ");
         	char ch=sc.nextLine().toUpperCase().charAt(0);
-        	if(ch=='Y') {
-			System.exit(0);
-			     
-		}}
+        	if(ch=='Y') 
+			System.exit(0);     
+		}
 		return null;
 	}
 	private static Customer registerUser() throws Exception
