@@ -7,7 +7,7 @@ public class Main
 		for(int i=0;i<10;i++) {
 			System.out.print("Enter your userId: ");
 			String userId=sc.nextLine();
-			System.out.print("Enter your password: ");
+			System.out.print("Enter your correct password: ");
 			String password=sc.nextLine();
 			Customer customer=new Customer(userId);
 			if(customer.login(password)) return customer;
