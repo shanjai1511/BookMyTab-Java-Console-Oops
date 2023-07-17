@@ -4,20 +4,20 @@ public class Main
 	private static Validation validation=new Validation();
 	private static Customer custlogin() throws Exception
 	{
-		for(int i=0;i<10;i++) {
-			System.out.print("Enter your userId: ");
-			String userId=sc.nextLine();
-			System.out.print("Enter your correct password: ");
-			String password=sc.nextLine();
-			Customer customer=new Customer(userId);
-			if(customer.login(password)) return customer;
-			System.out.println("Password and userId incorrect");
-			System.out.print("Do you want to exit(Y/N)? ");
-        	char ch=sc.nextLine().toUpperCase().charAt(0);
-        	if(ch=='Y') 
-			System.exit(0);     
-		}
-		return null;
+		// for(int i=0;i<10;i++) {
+		// 	System.out.print("Enter your userId: ");
+		// 	String userId=sc.nextLine();
+		// 	System.out.print("Enter your correct password: ");
+		// 	String password=sc.nextLine();
+		// 	Customer customer=new Customer(userId);
+		// 	if(customer.login(password)) return customer;
+		// 	System.out.println("Password and userId incorrect");
+		// 	System.out.print("Do you want to exit(Y/N)? ");
+  //       	char ch=sc.nextLine().toUpperCase().charAt(0);
+  //       	if(ch=='Y') 
+		// 	System.exit(0);     
+		// }
+		// return null;
 	}
 	private static Customer registerUser() throws Exception
 	{
